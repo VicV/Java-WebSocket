@@ -2,6 +2,12 @@
 Java WebSockets
 ===============
 
+#####VicV Flavor
+
+VicV: Just gutting this to be used as a submodule directory in Android Studio instead of a Module to avoid transitive dependencies in Gradle
+
+--
+
 This repository contains a barebones WebSocket server and client implementation
 written in 100% Java. The underlying classes are implemented `java.nio`, which allows for a
 non-blocking event-driven model (similar to the
